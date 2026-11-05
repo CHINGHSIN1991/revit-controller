@@ -16,16 +16,17 @@
 
 ## 開發環境
 
-撰寫時的實際狀況：Mac 上**沒有** .NET SDK，也還沒有 Windows 機器。下表的版本欄請在 Day 1 實際安裝後填入。
+Mac 端已於 Day 1 安裝完成（2026-11-06）；Windows 機器尚未準備。下表的版本欄請在實際安裝後填入。
 
 ### Mac（AI 端、Sidecar 開發）
 
 | 工具 | 需求 | 本機版本 | 狀態 |
 | --- | --- | --- | --- |
-| .NET SDK | 8.x | 待填 | ❌ 未安裝 |
-| Git | 任一近期版本 | 待填 | ✅ |
+| .NET SDK | 8.x | 8.0.427（另有 10.0.403，為 Homebrew 相依套件） | ✅ |
+| Git | 任一近期版本 | 2.39.5（Apple Git-154） | ✅ |
+| 遠端桌面 | Windows App | 11.4.4 | ✅ |
 | MCP client | Claude Code 或 MCP Inspector | 待填 | — |
-| IDE | VS Code（C# Dev Kit）或 Rider | 待填 | — |
+| IDE | VS Code（C# Dev Kit）或 Rider | VS Code + C# 擴充 2.160.4（免費版；Dev Kit / Rider 商業用途需授權） | ✅ |
 
 ### Windows（Revit 端）
 
